@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Docs on </title>
-    <link>/docs/</link>
-    <description>Recent content in Docs on </description>
+    <title>Docs on chadrohan</title>
+    <link>https://chadrohan.github.io/docs/</link>
+    <description>Recent content in Docs on chadrohan</description>
     <generator>Hugo -- 0.150.0</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Tue, 23 Sep 2025 00:37:08 +0530</lastBuildDate>
-    <atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chadrohan.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>/docs/test/</link>
+      <link>https://chadrohan.github.io/docs/test/</link>
       <pubDate>Tue, 23 Sep 2025 00:37:08 +0530</pubDate>
-      <guid>/docs/test/</guid>
+      <guid>https://chadrohan.github.io/docs/test/</guid>
       <description>&lt;h3 id=&#34;hello-world&#34;&gt;Hello World&lt;/h3&gt;
 &lt;p&gt;This is a test page&lt;/p&gt;</description>
     </item>
