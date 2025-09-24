@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on chadrohan</title>
-    <link>https://chadrohan.github.io/categories/</link>
+    <link>https://rohanchadha.github.io/categories/</link>
     <description>Recent content in Categories on chadrohan</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <atom:link href="https://chadrohan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rohanchadha.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
