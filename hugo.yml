@@ -1,6 +1,6 @@
 baseURL: 'https://rohanchadha.github.io/'
 languageCode: en-us
-title: chadrohan
+title: Rohan Chadha
 theme: PaperMod
 
 params:
@@ -8,7 +8,7 @@ params:
   homeInfoParams:
     Title: "Hello World \U0001F44B"
     Content: >-
-      I will use this space as a parking lot for my unhinged thoughts & take notes on things that I am trying to learn.      
+      I will be using this space to capture my unfiltered thoughts and learnings      
   socialIcons:
     - name: Rohan Chadha
       url: 'mailto:rohanchadha07.com'
