@@ -1,4 +1,36 @@
-baseURL: https://example.org/
+baseURL: 'https://rohanchadha.github.io/'
 languageCode: en-us
-title: My New Hugo Site
-theme: ["PaperMod"]
+title: chadrohan
+theme: PaperMod
+
+params:
+  defaultTheme: auto
+  homeInfoParams:
+    Title: "Hello World \U0001F44B"
+    Content: >-
+      I will use this space as a parking lot for my unhinged thoughts & take notes on things that I am trying to learn.      
+  socialIcons:
+    - name: Rohan Chadha
+      url: 'mailto:rohanchadha07.com'
+
+assets:
+  favicon16x16: /assets/favicon-16x16.png
+  favicon32x32: /assets/favicon-32x32.png
+  apple_touch_icon: /assets/apple-touch-icon.png
+
+favicon: favicon.ico
+
+menu:
+  main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
+  - identifier: posts
+    name: Blog
+    url: /posts/
+    weight: 2
+
+caches:
+  images:
+    dir: :cacheDir/images0
