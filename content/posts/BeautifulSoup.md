@@ -1,3 +1,8 @@
+---
+date: '2025-10-14T22:20:48+05:30'
+draft: false
+title: 'Cleaning Messy Data with 5 minute Gemini Prompt'
+---
 # Using Gemini for a Quick Text Cleaning Script
 
 ## The Task
