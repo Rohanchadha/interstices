@@ -3,8 +3,6 @@ date: '2025-10-14T22:20:48+05:30'
 draft: false
 title: 'Cleaning Messy Data with 5 minute Gemini Prompt'
 ---
-# Using Gemini for a Quick Text Cleaning Script
-
 ## The Task
 
 I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.
