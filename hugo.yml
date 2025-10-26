@@ -30,6 +30,10 @@ menu:
     name: Blog
     url: /posts/
     weight: 2
+  - identifier: work
+    name: POW
+    url: /pow/
+    weight: 3
 
 caches:
   images:

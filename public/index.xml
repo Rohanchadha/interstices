@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>chadrohan</title>
+    <title>Rohan Chadha</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on chadrohan</description>
+    <description>Recent content on Rohan Chadha</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Sep 2025 14:55:48 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 25 Oct 2025 17:35:48 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Sun, 21 Sep 2025 14:55:48 +0530</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;p&gt;###This is a test page&lt;/p&gt;
-&lt;p&gt;Hello World!&lt;/p&gt;</description>
+      <title>Frameworks &amp; Principles</title>
+      <link>http://localhost:1313/posts/frameworks/</link>
+      <pubDate>Sat, 25 Oct 2025 17:35:48 +0530</pubDate>
+      <guid>http://localhost:1313/posts/frameworks/</guid>
+      <description>&lt;p&gt;Some good reads on general frameworks and fundas on life, career, teams &amp;amp; Product Management&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://alexw.substack.com/p/optimism-shapes-reality&#34;&gt;Optimism Shapes Reality&lt;/a&gt; by Scale AI CEO&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Cleaning Messy Data with 5 minute Gemini Prompt</title>
+      <link>http://localhost:1313/posts/beautifulsoup/</link>
+      <pubDate>Tue, 14 Oct 2025 22:20:48 +0530</pubDate>
+      <guid>http://localhost:1313/posts/beautifulsoup/</guid>
+      <description>&lt;h2 id=&#34;the-task&#34;&gt;The Task&lt;/h2&gt;
+&lt;p&gt;I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.&lt;/p&gt;
+&lt;h2 id=&#34;the-prompt&#34;&gt;The Prompt&lt;/h2&gt;
+&lt;p&gt;I spent about five minutes writing an initial prompt. I included these points in the prompt:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
