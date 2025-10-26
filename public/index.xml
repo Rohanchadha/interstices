@@ -9,14 +9,14 @@
     <lastBuildDate>Sun, 26 Oct 2025 23:56:48 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Network Effects</title>
+      <title>Network Effects #3</title>
       <link>http://localhost:1313/posts/networks/</link>
       <pubDate>Sun, 26 Oct 2025 23:56:48 +0530</pubDate>
       <guid>http://localhost:1313/posts/networks/</guid>
       <description>&lt;h2 id=&#34;what-are-network-effects&#34;&gt;What Are Network Effects?&lt;/h2&gt;
 &lt;p&gt;Network effects happen when a product, service, or platform&amp;rsquo;s value increases as more people use it.
-The concept shapes business strategy and pricing. This is especially true for products and platforms where user numbers influence value.
-Examples of network effects appear in e-commerce (Amazon, Flipkart), ridesharing (Rapido, Uber), delivery platforms (Swiggy, zomato, Zepto), and social media (Facebook, Twitter, Instagram, LinkedIn).&lt;/p&gt;
+This is especially true for products and platforms where user numbers influence value.
+Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipkart), ridesharing (Rapido, Uber), delivery platforms (Swiggy, zomato, Zepto), and social media (Facebook, Twitter, Instagram, LinkedIn).&lt;/p&gt;
 &lt;h2 id=&#34;types-of-network-effects&#34;&gt;Types of Network Effects&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Direct (Same Side network effect):&lt;/strong&gt; Platform value grows directly as more users join. Examples include social networks like Reddit, Instagram, and LinkedIn.&lt;/li&gt;
