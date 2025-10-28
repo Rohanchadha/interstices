@@ -1,7 +1,8 @@
 ---
 draft: false
-date: '2025-10-26 23:56:48 +0530'
+date: '2025-10-26'
 title: 'Network Effects #3'
+tags: ["Frameworks"]
 ---
 ## What Are Network Effects?
 

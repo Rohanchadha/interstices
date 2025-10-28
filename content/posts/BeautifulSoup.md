@@ -1,7 +1,8 @@
 ---
-date: '2025-10-14T22:20:48+05:30'
+date: '2025-10-14'
 draft: false
 title: 'Cleaning Messy Data with 5 minute Gemini Prompt #1'
+tags: ["python"]
 ---
 ## The Task
 

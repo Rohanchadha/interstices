@@ -1,7 +1,8 @@
 ---
-date: 2025-10-25T17:35:48+05:30
+date: '2025-10-25'
 draft: false
-title: Frameworks & Principles
+title: 'Frameworks & Principles #2'
+tags: ["Frameworks"]
 ---
 Some good reads on general frameworks and fundas on life, career, teams & Product Management
 

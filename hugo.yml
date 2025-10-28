@@ -6,19 +6,25 @@ theme: PaperMod
 params:
   defaultTheme: auto
   homeInfoParams:
-    Title: "Hello World \U0001F44B"
+    Title: "Hey, I am Rohan \U0001F44B"
     Content: >-
       I will be using this space to capture my unfiltered thoughts and learnings      
   socialIcons:
-    - name: Rohan Chadha
+    - name: email
       url: 'mailto:rohanchadha07.com'
+    - name: github
+      url: "https://github.com/Rohanchadha"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/rohan-chadha/"
+
 
 assets:
+  favicon: /favicon.ico
   favicon16x16: /assets/favicon-16x16.png
   favicon32x32: /assets/favicon-32x32.png
   apple_touch_icon: /assets/apple-touch-icon.png
 
-favicon: favicon.ico
+
 
 menu:
   main:
@@ -30,9 +36,13 @@ menu:
     name: Blog
     url: /posts/
     weight: 2
-  - identifier: work
-    name: POW
-    url: /pow/
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 4
+  - identifier: about
+    name: About
+    url: /about/
     weight: 3
 
 caches:
