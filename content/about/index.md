@@ -16,10 +16,12 @@ User Growth & Engagement
 * Gets demand through **OTAs** (redbus, mmt, abhibus), its **[B2C app](https://play.google.com/store/apps/details?id=com.zingbusbtoc.zingbus)** (1M+ downloads) & **B2B platform** (focused towards Travel Agents)
 * Also completely owns network/schedule planning, training crew, inventory pricing, marketing, CX experience 
 
-On to what I did there 👇
+On to things I built while I was there 👇
 
 
 ### Apr 2023 - Nov 2024 (Product Manager)
+
+I was leading the whole product pipeline at this point. I had 4 direct reports (1 designer & 3 APMs)
 
 * On Time Guarantee product
 * [Supply Portal](https://www.zingbus.com/operator) - Bus Fleet Owner & Admin
@@ -44,19 +46,26 @@ On to what I did there 👇
 * Dynamic Pricing Product
     * Get signals (occupancy, prices) from bus ecosystem (OTAs, GDS APIs)
 
-* Curated Marketplace
+* Curated Marketplace (Partner Buses)
     * We had decent traffic on consumer app & huge Travel Agent network but only 300 buses on the road connecting 500 cities
-    * We weren't servicing a lot of the routes the users & travel agents were searching for (ZRPs)
-    * Enter Curated Marketplace - Sell non-zingbus branded supply on our b2c/b2b platform
-    * Get this inventory via GDS intergations with Bitla, Mantis, Abhibus (These are Amadeus/Sabre equivalents for Bus Travel)
-    * Communi
+    * We weren't servicing a lot of the routes the users & travel agents were searching for (resulting in zero result pages)
+    * Enter Curated Marketplace - Sell non-zingbus branded supply on our platform
+    * Got this inventory via GDS intergations with Bitla, Mantis, Abhibus (These are Amadeus/Sabre equivalents for Bus Travel)
 * Valuebus - Demand Aggregation & Dynamic Supply Matching product
-* Gamification
-* Loyalty Pass
-    * zingPrime
-* 
+* zingprime - Loyalty Pass inclusive of below benefits
+    * On-Time Guarantee (if your bus is >45 mins late at your destination or pickup point, 50% refund coupon)
+    * Additional 5% discount
+    * Free Travel Insurance
+    * Better Refund/'Cancellation Policy
+    * Was used heavily for Customer Acquisition. Free zingprime on App Install. We'd much rather prefer a customer directly book & repeat through our app rather than from OTA (coz 14% Take Rate)
+* Spin The Wheel
+    * Reactivation
+* Rapido Partnership 
+* CRM/User Journeys (through MoEngage & Clevertap)
+    * Reactivation Campaigns
 
-### Apr 2022 - Mar 2023 (Associate Product Manager 1)
+
+### Apr 2022 - Mar 2023 (Associate Product Manager - I)
 * WhatsApp Chatbot implementation
 * Crew App - [zingbus Marshal App](https://play.google.com/store/apps/details?id=com.zingbus.zingbusmarshalapp)
     * Crew salary disbursal 
@@ -74,3 +83,14 @@ On to what I did there 👇
 * Bus Live Tracking Product
     * Self Help Page
 * Automated Trip Assignment
+* Led integrations
+    * Optimized PG costs - onboarded PayTM, PhonePe & Razorpay
+    * Juspay for logic based routing & downtime protection
+    * Mixpanel for event tracking
+    * Decentro for KYCs
+    * Razorpay X for Crew payouts
+    * Clevertap for Customer Engagement & Retention campaigns
+    * Customer Glu - Gamification campaigns
+    * Bimaplan - Travel Insurance Provider
+    * Clime.io - Carbon Neutralization initiative
+

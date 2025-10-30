@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/frameworks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Effects #3</title>
-      <link>http://localhost:1313/posts/network-effect/</link>
+      <link>http://localhost:1313/posts/2025-10-26-network-effect/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/network-effect/</guid>
+      <guid>http://localhost:1313/posts/2025-10-26-network-effect/</guid>
       <description>&lt;h2 id=&#34;what-are-network-effects&#34;&gt;What Are Network Effects?&lt;/h2&gt;
 &lt;p&gt;Network effects happen when a product, service, or platform&amp;rsquo;s value increases as more people use it.
 This is especially true for products and platforms where user numbers influence value.
@@ -27,13 +27,14 @@ Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipka
     </item>
     <item>
       <title>Frameworks &amp; Principles #2</title>
-      <link>http://localhost:1313/posts/frameworks/</link>
+      <link>http://localhost:1313/posts/2025-10-25-frameworks/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/frameworks/</guid>
+      <guid>http://localhost:1313/posts/2025-10-25-frameworks/</guid>
       <description>&lt;p&gt;Some good reads on general frameworks and fundas on life, career, teams &amp;amp; Product Management&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://alexw.substack.com/p/optimism-shapes-reality&#34;&gt;Optimism Shapes Reality&lt;/a&gt; by Scale AI CEO&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://a16z.com/16-ways-to-measure-network-effects/&#34;&gt;16 ways to measure Network Effects&lt;/a&gt; - a16z blog&lt;/li&gt;
+&lt;li&gt;Test&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
   </channel>

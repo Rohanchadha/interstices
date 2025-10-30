@@ -10,13 +10,52 @@
     <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cleaning Messy Data with 5 minute Gemini Prompt #1</title>
-      <link>http://localhost:1313/posts/beautifulsoup/</link>
+      <link>http://localhost:1313/posts/2025-10-14-beautifulsoup/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/beautifulsoup/</guid>
+      <guid>http://localhost:1313/posts/2025-10-14-beautifulsoup/</guid>
       <description>&lt;h2 id=&#34;the-task&#34;&gt;The Task&lt;/h2&gt;
 &lt;p&gt;I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.&lt;/p&gt;
 &lt;h2 id=&#34;the-prompt&#34;&gt;The Prompt&lt;/h2&gt;
 &lt;p&gt;I spent about five minutes writing an initial prompt. I included these points in the prompt:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cleaning Messy Data with 5 minute Gemini Prompt #1</title>
+      <link>http://localhost:1313/posts/2024-11-09-howsearchworks/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-11-09-howsearchworks/</guid>
+      <description>&lt;p&gt;Google search works in 3 stages. All pages do not necessarily go through all 3 stages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Crawling&lt;/li&gt;
+&lt;li&gt;Indexing&lt;/li&gt;
+&lt;li&gt;Serving Search results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Crawling&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated Programs called crawlers, download the text, images, and videos of a website&lt;/li&gt;
+&lt;li&gt;Google discovers pages through:
+&lt;ul&gt;
+&lt;li&gt;URL Discovery - Google follows a link from a known page to a new page&lt;/li&gt;
+&lt;li&gt;Sitemaps - you submit a list of pages to Google to crawl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Indexing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Post crawling, google tries to understand what the page is about - by processing and analyzing textual content, key tags of the page&lt;/li&gt;
+&lt;li&gt;During this process, google also determines if the page is a duplicate or canonical.&lt;/li&gt;
+&lt;li&gt;Canonical is the page that may be shown in the search results. Webpages with similar content are first grouped together &amp;amp; then a page representative of the group is selected as canonical&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Serving Search Results&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;When a user makes a search query, Google Machines searches the index for matching pages&lt;/li&gt;
+&lt;li&gt;It returns the result most relevant to the user&amp;rsquo;s query. The relevancy depends on hundred&amp;rsquo;s of factors - location, language, device etc.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
