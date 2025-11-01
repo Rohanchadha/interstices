@@ -4,7 +4,9 @@ description: "brief summary of things I've worked on"
 ---
 
 ## Infoedge - shiksha.com (1 year)
-User Growth & Engagement
+* Shiksha is India's leading education guidance platform
+* We help students choose courses & colleges
+* I am currently taking care of User Growth & Engagement charter at shiksha
 
 
 ## Zingbus - YC'21 (2 years 8 months)
