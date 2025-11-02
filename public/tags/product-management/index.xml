@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Product Management on Rohan Chadha</title>
+    <link>http://localhost:1313/tags/product-management/</link>
+    <description>Recent content in Product Management on Rohan Chadha</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How would you improve Gmail?</title>
+      <link>http://localhost:1313/posts/2025-11-01-improvegmail/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-01-improvegmail/</guid>
+      <description>&lt;p&gt;I keep seeing a lot of Product Improvement cases on &lt;a href=&#34;https://www.tryexponent.com&#34;&gt;Exponent&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.productmanagementexercises.com&#34;&gt;Product Management Exercises&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was organizing my already booked travel tickets into a folder to make it accessible later.
+As part of that, I had to search my gmail for emails from MakeMyTrip, Scoot Airlines, Booking, SmartBuy. The whole process such a mess.&lt;/p&gt;
+&lt;p&gt;I even tried gemini widget inside gmail for the same but it didn&amp;rsquo;t turnout that good.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how I would do it&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,19 @@
     <description>Recent content in Posts on Rohan Chadha</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How would you improve Gmail?</title>
+      <link>http://localhost:1313/posts/2025-11-01-improvegmail/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-01-improvegmail/</guid>
+      <description>&lt;p&gt;I keep seeing a lot of Product Improvement cases on &lt;a href=&#34;https://www.tryexponent.com&#34;&gt;Exponent&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.productmanagementexercises.com&#34;&gt;Product Management Exercises&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was organizing my already booked travel tickets into a folder to make it accessible later.
+As part of that, I had to search my gmail for emails from MakeMyTrip, Scoot Airlines, Booking, SmartBuy. The whole process such a mess.&lt;/p&gt;
+&lt;p&gt;I even tried gemini widget inside gmail for the same but it didn&amp;rsquo;t turnout that good.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how I would do it&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Types of Poker Players</title>
       <link>http://localhost:1313/posts/2025-10-31-pokerplayertypes/</link>
@@ -71,7 +82,7 @@ Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipka
 &lt;p&gt;I spent about five minutes writing an initial prompt. I included these points in the prompt:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cleaning Messy Data with 5 minute Gemini Prompt #1</title>
+      <title>How Search works</title>
       <link>http://localhost:1313/posts/2024-11-09-howsearchworks/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2024-11-09-howsearchworks/</guid>
