@@ -9,15 +9,18 @@
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How would you improve Gmail?</title>
+      <title>How would I improve Gmail?</title>
       <link>http://localhost:1313/posts/2025-11-01-improvegmail/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-11-01-improvegmail/</guid>
-      <description>&lt;p&gt;I keep seeing a lot of Product Improvement cases on &lt;a href=&#34;https://www.tryexponent.com&#34;&gt;Exponent&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.productmanagementexercises.com&#34;&gt;Product Management Exercises&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I was organizing my already booked travel tickets into a folder to make it accessible later.
-As part of that, I had to search my gmail for emails from MakeMyTrip, Scoot Airlines, Booking, SmartBuy. The whole process such a mess.&lt;/p&gt;
-&lt;p&gt;I even tried gemini widget inside gmail for the same but it didn&amp;rsquo;t turnout that good.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s how I would do it&lt;/p&gt;</description>
+      <description>&lt;p&gt;Just a few days back, I was trying to take an offline download of all the flight and hotel bookings for an upcoming trip from gmail &amp;amp; I just realized the whole process wasn&amp;rsquo;t as smooth as it could be.&lt;/p&gt;
+&lt;p&gt;Disclaimer -&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi &amp;amp; 5 from Amritsar) - A total of 6 bookings&lt;/li&gt;
+&lt;li&gt;Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts&lt;/li&gt;
+&lt;li&gt;All in all I ended up using 5 providers for making bookings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On to the problem.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

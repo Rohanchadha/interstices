@@ -5,13 +5,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>How would you improve Gmail? | Rohan Chadha</title>
+<title>How would I improve Gmail? | Rohan Chadha</title>
 <meta name="keywords" content="Product Management">
-<meta name="description" content="I keep seeing a lot of Product Improvement cases on Exponent &amp; Product Management Exercises
-I was organizing my already booked travel tickets into a folder to make it accessible later.
-As part of that, I had to search my gmail for emails from MakeMyTrip, Scoot Airlines, Booking, SmartBuy. The whole process such a mess.
-I even tried gemini widget inside gmail for the same but it didn&rsquo;t turnout that good.
-Here&rsquo;s how I would do it">
+<meta name="description" content="Just a few days back, I was trying to take an offline download of all the flight and hotel bookings for an upcoming trip from gmail &amp; I just realized the whole process wasn&rsquo;t as smooth as it could be.
+Disclaimer -
+
+I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi &amp; 5 from Amritsar) - A total of 6 flight bookings &amp; 4 hotel bookings
+Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts. All in all I ended up using 5 providers for making bookings
+
+On to the problem. What I was doing?">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/2025-11-01-improvegmail/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
@@ -131,17 +133,52 @@ Here&rsquo;s how I would do it">
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      How would you improve Gmail?
+      How would I improve Gmail?
     </h1>
     <div class="post-meta"><span title='2025-11-01 00:00:00 +0000 UTC'>November 1, 2025</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>I keep seeing a lot of Product Improvement cases on <a href="https://www.tryexponent.com">Exponent</a> &amp; <a href="https://www.productmanagementexercises.com">Product Management Exercises</a></p>
-<p>I was organizing my already booked travel tickets into a folder to make it accessible later.
-As part of that, I had to search my gmail for emails from MakeMyTrip, Scoot Airlines, Booking, SmartBuy. The whole process such a mess.</p>
-<p>I even tried gemini widget inside gmail for the same but it didn&rsquo;t turnout that good.</p>
-<p>Here&rsquo;s how I would do it</p>
+  <div class="post-content"><p>Just a few days back, I was trying to take an offline download of all the flight and hotel bookings for an upcoming trip from gmail &amp; I just realized the whole process wasn&rsquo;t as smooth as it could be.</p>
+<p><strong>Disclaimer</strong> -</p>
+<ul>
+<li>I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi &amp; 5 from Amritsar) - A total of 6 flight bookings &amp; 4 hotel bookings</li>
+<li>Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts. All in all I ended up using 5 providers for making bookings</li>
+</ul>
+<p>On to the problem. What I was doing?</p>
+<p>Search Gmail -&gt; SRP -&gt; Eyeball the results -&gt; Click on booking email -&gt; Open Email -&gt; Download attachment -&gt; move to a drive folder</p>
+<ul>
+<li>Majority of the times, this worked. Whatever you&rsquo;re looking for shows up on the SRP in the first fold, you see an attachment and a PNR on an email, you know this is the one you&rsquo;re looking for</li>
+<li>Many a times, results aren&rsquo;t as relevant. What results made SRP irrelevant for my use case? These emails by OTAs 👇
+<ul>
+<li>How was your booking experience?</li>
+<li>Book Forex for your upcoming trip</li>
+<li>Secure your upcoming trip. Buy Travel Insurance</li>
+<li>Book a Return Ticket</li>
+<li>Book your stay with us</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Flight widget inside gmail" loading="lazy" src="/posts/2025-11-01-improvegmail/FlightWidget.png"></p>
+<p>Now, gmail is already pretty good at</p>
+<ul>
+<li>Identifying flight &amp; hotel booking events from your mail. It does so by scanning your mail &amp; attachmnents for <a href="https://developers.google.com/workspace/gmail/markup/reference/flight-reservation">structured schema</a></li>
+<li>It identifies entities (passenger name, pnr, departure city, departure airport etc.) from the email &amp; adds a corresponding event to your calendars</li>
+<li>At times, on the day of the event, it&rsquo;ll read your calender - check your event location and current location &amp; notify you to leave for your destination (with an ETA powered by Google Maps) 🤯</li>
+</ul>
+<p>Wouldn&rsquo;t it be great if there&rsquo;s a pre-determined home for all such bookings/events/reservation emails inside gmail?
+Well, it could be for people who rely heavily on gmail to find and organize their events. So how would you do it?</p>
+<p>Since, gmail already has a superb ability to parse emails to tell a event/booking email from a normal email. A dedicated collection in the right menu could just do the job.</p>
+<p><img alt="Travel Bookings in side menu" loading="lazy" src="/posts/2025-11-01-improvegmail/sideMenuGmail.png"></p>
+<p>If there&rsquo;s a dedicated collection of &ldquo;booking&rdquo; emails - existing advanced search features can be extended here on this folder. Due to this folder&rsquo;s qualifying rule, marketing/promotion/targeting emails won&rsquo;t show up when searches are done on this folder.</p>
+<p><img alt="Advanced search" loading="lazy" src="/posts/2025-11-01-improvegmail/gmailSearch.png"></p>
+<p>Maybe why it hasn&rsquo;t already been done:</p>
+<ul>
+<li>Not all online agents use structured schema for Email Updates,</li>
+<li>thus making it hard to confidently qualify a mail as a Booking email</li>
+<li>So, the True Positive rate (classifying right email under <em>Travel Booking</em> folder) might be low</li>
+<li>Low True Positive rate (not having all my booking emails under this folder) might just be a poor UX to a power user like me</li>
+</ul>
 
 
   </div>
