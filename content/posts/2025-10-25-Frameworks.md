@@ -8,4 +8,5 @@ Some good reads on general frameworks and fundas on life, career, teams & Produc
 
 1. [Optimism Shapes Reality](https://alexw.substack.com/p/optimism-shapes-reality) by Scale AI CEO
 2. [16 ways to measure Network Effects](https://a16z.com/16-ways-to-measure-network-effects/) - a16z blog
-3. Test
+3. [Eigen Questions](https://coda.io/@shishir/eigenquestions-the-art-of-framing-problems) by Shishir Mehrotra
+4. 
