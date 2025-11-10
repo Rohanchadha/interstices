@@ -14,13 +14,12 @@
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-11-01-improvegmail/</guid>
       <description>&lt;p&gt;Just a few days back, I was trying to take an offline download of all the flight and hotel bookings for an upcoming trip from gmail &amp;amp; I just realized the whole process wasn&amp;rsquo;t as smooth as it could be.&lt;/p&gt;
-&lt;p&gt;Disclaimer -&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt; -&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi &amp;amp; 5 from Amritsar) - A total of 6 bookings&lt;/li&gt;
-&lt;li&gt;Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts&lt;/li&gt;
-&lt;li&gt;All in all I ended up using 5 providers for making bookings&lt;/li&gt;
+&lt;li&gt;I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi &amp;amp; 5 from Amritsar) - A total of 6 flight bookings &amp;amp; 4 hotel bookings&lt;/li&gt;
+&lt;li&gt;Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts. All in all I ended up using 5 providers for making bookings&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;On to the problem.&lt;/p&gt;</description>
+&lt;p&gt;On to the problem. What I was doing?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Types of Poker Players</title>
@@ -124,11 +123,47 @@ Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipka
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Hi, I am Rohan Chadha</title>
+      <title>Rohan Chadha</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>brief summary of things I&amp;#39;ve worked on</description>
+      <description>&lt;p&gt;&lt;strong&gt;Some things about me:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grew up in Amritsar&lt;/li&gt;
+&lt;li&gt;Graduated from NIT Jalandhar + IIFT&lt;/li&gt;
+&lt;li&gt;Early career in software engineering, later turned PM.&lt;/li&gt;
+&lt;li&gt;I love movies &amp;amp; I like doing hard things&lt;/li&gt;
+&lt;li&gt;Currently self-learning vibe coding &amp;amp; piano&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Here&amp;rsquo;s where I&amp;rsquo;ve worked so far 👇&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Product &amp;amp; Data @ shiksha.com (160 Cr revenue, 500M+ annual visits)&lt;/li&gt;
+&lt;li&gt;Product &amp;amp; Growth @ zingbus - YC&#39;21 ($70M intercity bus travel aggregator)&lt;/li&gt;
+&lt;li&gt;Software Engineer @ Capgemini (Wealth Mgmt/Payments)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;infoedge---shikshacom-1-year&#34;&gt;Infoedge - shiksha.com (1 year)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Shiksha is India&amp;rsquo;s leading education guidance platform
+&lt;ul&gt;
+&lt;li&gt;500 Mn+ annual vists&lt;/li&gt;
+&lt;li&gt;1 Mn+ App Downloads&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;We provide comprehensive college and course selection guidance to students&lt;/li&gt;
+&lt;li&gt;I  take care of &lt;strong&gt;User Growth&lt;/strong&gt; &amp;amp; &lt;strong&gt;Engagement&lt;/strong&gt; charter at shiksha&lt;/li&gt;
+&lt;li&gt;I still work here. so can&amp;rsquo;t talk about much else rn 😁&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;zingbus---yc21-2-years-8-months&#34;&gt;Zingbus - YC&#39;21 (2 years 8 months)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;zingbus - an &lt;strong&gt;asset-light&lt;/strong&gt; &amp;amp; &lt;strong&gt;SOP-heavy&lt;/strong&gt; business.&lt;/li&gt;
+&lt;li&gt;It partners with small and medium size bus fleet operators.&lt;/li&gt;
+&lt;li&gt;Aggregates this supply under zingbus brands - plus, maxx, valuebus (kinda like OYO does with hotels)&lt;/li&gt;
+&lt;li&gt;Fleet Operator takes complete ownership of - maintenance, staffing, compliance, etc&lt;/li&gt;
+&lt;li&gt;zingbus takes care of demand side of the equation&lt;/li&gt;
+&lt;li&gt;Gets demand through &lt;strong&gt;OTAs&lt;/strong&gt; (redbus, mmt, abhibus), its &lt;strong&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.zingbusbtoc.zingbus&#34;&gt;B2C app&lt;/a&gt;&lt;/strong&gt; (1M+ downloads) &amp;amp; &lt;strong&gt;B2B platform&lt;/strong&gt; (focused towards Travel Agents)&lt;/li&gt;
+&lt;li&gt;Also completely owns network/schedule planning, training crew, inventory pricing, marketing, CX experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On to things I built while I was there 👇&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
