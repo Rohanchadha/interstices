@@ -10,7 +10,7 @@ Just a few days back, I was trying to take an offline download of all the flight
 * I had booked flights for 3 legs of my journey (2 people starting their itinerary from Delhi & 5 from Amritsar) - A total of 6 flight bookings & 4 hotel bookings
 * Value seeking person that I am - I had heavily used Skyscanner in the booking process to seek discounts. All in all I ended up using 5 providers for making bookings
 
-On to the problem. What I was doing?
+**On to the problem. What was I doing?**
 
 Search Gmail -> SRP -> Eyeball the results -> Click on booking email -> Open Email -> Download attachment -> move to a drive folder
 
@@ -40,7 +40,12 @@ If there's a dedicated collection of "booking" emails - existing advanced search
 
 ![Advanced search](gmailSearch.png)
 
-Maybe why it hasn't already been done:
+***Metrics/Data I'd look at if I were the PM who made this:***
+* CTR on the Booking folder
+* \# of Email opened/re-opened from booking folder
+* Search funnel inside Booking folder
+
+***Maybe why it hasn't already been done:***
 * Not all online agents use structured schema for Email Updates, 
 * thus making it hard to confidently qualify a mail as a Booking email
 * So, the True Positive rate (classifying right email under _Travel Booking_ folder) might be low

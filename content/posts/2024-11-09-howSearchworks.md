@@ -2,7 +2,7 @@
 date: '2024-11-09'
 draft: false
 title: 'How Search works'
-tags: ["python"]
+tags: ["SEO"]
 ---
  Google search works in 3 stages. All pages do not necessarily go through all 3 stages.
 

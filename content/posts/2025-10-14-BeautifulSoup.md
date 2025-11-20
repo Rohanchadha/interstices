@@ -2,7 +2,7 @@
 date: '2025-10-14'
 draft: false
 title: 'Cleaning Messy Data with 5 minute Gemini Prompt #1'
-tags: ["python"]
+tags: ["python","How I AI"]
 ---
 ## The Task
 

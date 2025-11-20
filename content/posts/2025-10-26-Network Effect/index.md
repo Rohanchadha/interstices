@@ -1,12 +1,12 @@
 ---
 draft: false
 date: '2025-10-26'
-title: 'Network Effects #3'
+title: 'Network Effects'
 tags: ["Frameworks"]
 ---
 ## What Are Network Effects?
 
-Network effects happen when a product, service, or platform's value increases as more people use it.
+Network effects happen when a product, service, or ***platform's value increases as more people use it***.
 This is especially true for products and platforms where user numbers influence value.
 Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipkart), ridesharing (Rapido, Uber), delivery platforms (Swiggy, zomato, Zepto), and social media (Facebook, Twitter, Instagram, LinkedIn).
 
