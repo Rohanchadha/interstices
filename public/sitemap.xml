@@ -41,10 +41,16 @@
     <loc>http://localhost:1313/posts/2025-10-14-beautifulsoup/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/how-i-ai/</loc>
+    <lastmod>2025-10-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2025-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2024-11-09-howsearchworks/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/seo/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2025-11-12-searchvsexplorecategories/</loc>

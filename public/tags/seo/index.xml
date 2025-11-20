@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SEO on Rohan Chadha</title>
+    <link>http://localhost:1313/tags/seo/</link>
+    <description>Recent content in SEO on Rohan Chadha</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Search works</title>
+      <link>http://localhost:1313/posts/2024-11-09-howsearchworks/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2024-11-09-howsearchworks/</guid>
+      <description>&lt;p&gt;Google search works in 3 stages. All pages do not necessarily go through all 3 stages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Crawling&lt;/li&gt;
+&lt;li&gt;Indexing&lt;/li&gt;
+&lt;li&gt;Serving Search results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Crawling&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated Programs called crawlers, download the text, images, and videos of a website&lt;/li&gt;
+&lt;li&gt;Google discovers pages through:
+&lt;ul&gt;
+&lt;li&gt;URL Discovery - Google follows a link from a known page to a new page&lt;/li&gt;
+&lt;li&gt;Sitemaps - you submit a list of pages to Google to crawl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Indexing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Post crawling, google tries to understand what the page is about - by processing and analyzing textual content, key tags of the page&lt;/li&gt;
+&lt;li&gt;During this process, google also determines if the page is a duplicate or canonical.&lt;/li&gt;
+&lt;li&gt;Canonical is the page that may be shown in the search results. Webpages with similar content are first grouped together &amp;amp; then a page representative of the group is selected as canonical&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Serving Search Results&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;When a user makes a search query, Google Machines searches the index for matching pages&lt;/li&gt;
+&lt;li&gt;It returns the result most relevant to the user&amp;rsquo;s query. The relevancy depends on hundred&amp;rsquo;s of factors - location, language, device etc.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

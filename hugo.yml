@@ -48,3 +48,5 @@ menu:
 caches:
   images:
     dir: :cacheDir/images0
+
+googleAnalytics: G-S6WKGZZ8VF
