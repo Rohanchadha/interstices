@@ -4,7 +4,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Cleaning Messy Data with 5 minute Gemini Prompt #1 | Rohan Chadha</title>
 <meta name="keywords" content="python, How I AI">
 <meta name="description" content="The Task
@@ -14,10 +14,10 @@ I spent about five minutes writing an initial prompt. I included these points in
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/posts/2025-10-14-beautifulsoup/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="http://localhost:1313/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/apple-touch-icon.png">
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
@@ -59,88 +59,6 @@ I spent about five minutes writing an initial prompt. I included these points in
 
     </style>
 </noscript>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S6WKGZZ8VF"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-S6WKGZZ8VF');
-        }
-      </script><meta property="og:url" content="http://localhost:1313/posts/2025-10-14-beautifulsoup/">
-  <meta property="og:site_name" content="Rohan Chadha">
-  <meta property="og:title" content="Cleaning Messy Data with 5 minute Gemini Prompt #1">
-  <meta property="og:description" content="The Task I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.
-The Prompt I spent about five minutes writing an initial prompt. I included these points in the prompt:">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-10-14T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-10-14T00:00:00+00:00">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="How I AI">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Cleaning Messy Data with 5 minute Gemini Prompt #1">
-<meta name="twitter:description" content="The Task
-I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.
-The Prompt
-I spent about five minutes writing an initial prompt. I included these points in the prompt:">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "http://localhost:1313/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Cleaning Messy Data with 5 minute Gemini Prompt #1",
-      "item": "http://localhost:1313/posts/2025-10-14-beautifulsoup/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Cleaning Messy Data with 5 minute Gemini Prompt #1",
-  "name": "Cleaning Messy Data with 5 minute Gemini Prompt #1",
-  "description": "The Task I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.\nThe Prompt I spent about five minutes writing an initial prompt. I included these points in the prompt:\n",
-  "keywords": [
-    "python", "How I AI"
-  ],
-  "articleBody": "The Task I needed to run a text cleaning operation on almost 500,000 rows of data. The text contained URLs, HTML tags, Math ML tags, and hrefs. I had to clean all of this data before running a pipeline operation on it. I decided to use Gemini to write some starter python code that I could change to get this done.\nThe Prompt I spent about five minutes writing an initial prompt. I included these points in the prompt:\nWhat to clean: URLs, HTML tags, and escaped HTML entities like \u0026lt;. The input will be a CSV file. The output should be appended to the CSV file. I gave a sample of the text. I asked it to create a Colab playground for me to test the code. The Result The first shot code worked for about 70% of the cases. I made some more tweaks to finalize it.\nHere is the colab link and the code below.\nColab Link: https://colab.research.google.com/drive/1s6E4lxJ9WjyLCGaM2SQGfdTI69vNJzu9?usp=sharing\nThe Code # pip install beautifulsoup4 from bs4 import BeautifulSoup import re import html # \u003c-- Import the html library def clean_text_advanced(raw_text: str) -\u003e str: \"\"\" Cleans a string containing standard or escaped HTML, MathML, and other special characters. Args: raw_text: The input string to be cleaned. Returns: A cleaned, plain English string. \"\"\" # 1. Decode HTML entities (e.g., \u0026lt; to \u003c) unscaped_text = html.unescape(raw_text) # 2. Use BeautifulSoup to parse the text and remove all tags soup = BeautifulSoup(unscaped_text, 'html.parser') text_only = soup.get_text(separator=' ') # Use a space as a separator # 3. Use regex to clean up remaining artifacts # Replace multiple whitespace characters (spaces, newlines, tabs) with a single space cleaned_text = re.sub(r'\\s+', ' ', text_only) # 4. Remove any leading/trailing whitespace return cleaned_text.strip() # ---==| Example Usage with Your Sample |==--- messy_text = \"Yes the cutoff for 2023 year is released for IET. Check out this link for detailed information : [https://www.shiksha.com/college/institute-of-engineering-and-technology-iet-dr-a-p-j-abdul-kalam-technical-university-lucknow-24137/cutoff](https://www.shiksha.com/college/institute-of-engineering-and-technology-iet-dr-a-p-j-abdul-kalam-technical-university-lucknow-24137/cutoff) The AKTU cutoff for B.Tech in Computer Science and Engineering for the general category is expected to be around 32075 for Round 1 and 62320 for Round 4 in the Uttar Pradesh Domicile Quota. The minimum qualifying marks required for various categories in B.Tech courses are 25% for general, 25% for OBC, 20% for SC, and 25% for ST.\" cleaned_version = clean_text_advanced(messy_text) print(f\"Cleaned Text:\\n{cleaned_version}\") import pandas as pd from bs4 import BeautifulSoup import re import html import os # Used for creating a sample file # ---------------------------------------------------------------------------- # 1. THE CLEANING FUNCTION (Unchanged from before) # ---------------------------------------------------------------------------- def clean_text_advanced(raw_text: str) -\u003e str: \"\"\" Cleans a string containing standard or escaped HTML, MathML, etc. \"\"\" # Ensure input is a string, handle potential non-string data like NaN if not isinstance(raw_text, str): return \"\" # Return an empty string for non-string inputs # Decode HTML entities (e.g., \u0026lt; to \u003c) unscaped_text = html.unescape(raw_text) # Use BeautifulSoup to parse and remove all tags soup = BeautifulSoup(unscaped_text, 'html.parser') text_only = soup.get_text(separator=' ') # Use a space as a separator # Use regex to clean up remaining artifacts cleaned_text = re.sub(r'\\s+', ' ', text_only) return cleaned_text.strip() # ---------------------------------------------------------------------------- # 2. THE CSV PROCESSING FUNCTION (New) # ---------------------------------------------------------------------------- def process_csv(input_filepath: str, output_filepath: str, column_to_clean: str): \"\"\" Reads a CSV, cleans a specified text column, and saves the result to a new CSV. Args: input_filepath: Path to the source CSV file. output_filepath: Path to save the new CSV file. column_to_clean: The name of the column containing the messy text. \"\"\" print(f\"🔄 Starting to process '{input_filepath}'...\") try: # Read the CSV file into a pandas DataFrame df = pd.read_csv(input_filepath) print(f\"✅ Successfully loaded {len(df)} rows.\") # Check if the specified column exists if column_to_clean not in df.columns: print(f\"❌ Error: Column '{column_to_clean}' not found in the CSV!\") print(f\"Available columns are: {list(df.columns)}\") return # Apply the cleaning function to the specified column # .astype(str) handles any non-string data in the column # The new column will be named 'cleaned_text' print(f\"🧼 Cleaning text in column '{column_to_clean}'...\") df['cleaned_text'] = df[column_to_clean].astype(str).apply(clean_text_advanced) # Save the updated DataFrame to a new CSV file df.to_csv(output_filepath, index=False, encoding='utf-8') print(f\"✨ Success! Cleaned data saved to '{output_filepath}'\") except FileNotFoundError: print(f\"❌ Error: The file '{input_filepath}' was not found.\") except Exception as e: print(f\"An unexpected error occurred: {e}\") # ---------------------------------------------------------------------------- # 3. EXAMPLE USAGE # ---------------------------------------------------------------------------- if __name__ == \"__main__\": # --- Create a sample CSV for demonstration --- sample_data = { 'id': [1, 2, 3], 'messy_content': [ 'Here is bold text \u0026amp; a math equation: ax2\n', 'Yes, joining the \u0026lt;a href=\"...\"\u0026gt;top colleges\u0026lt;/a\u0026gt; can be worthwhile.', 'Just some regular text with extra spaces.' ], 'other_data': ['A', 'B', 'C'] } sample_df = pd.DataFrame(sample_data) sample_input_file = 'sample_input.csv' sample_df.to_csv(sample_input_file, index=False) # --- Configuration: YOU NEED TO SET THESE VARIABLES --- # The name of your input file input_file = '500 ICNC ATFs cleaned.csv' # The name of the column you want to clean column_name = 'cleaned_text1' ",
-  "wordCount" : "799",
-  "inLanguage": "en",
-  "datePublished": "2025-10-14T00:00:00Z",
-  "dateModified": "2025-10-14T00:00:00Z",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/2025-10-14-beautifulsoup/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rohan Chadha",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
-    }
-  }
-}
-</script>
 </head>
 
 <body class="" id="top">
