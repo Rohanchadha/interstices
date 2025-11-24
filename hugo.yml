@@ -6,9 +6,11 @@ theme: PaperMod
 params:
   defaultTheme: auto
   homeInfoParams:
-    Title: "Hey, I am Rohan \U0001F44B"
+    Title: "\U0001F44B Welcome to my blog"
     Content: >-
-      I will be using this space to capture my unfiltered thoughts and learnings      
+      Hey there, I'm Rohan. I am an engineer turned Product Manager.
+      I use this space to document my continuous learnings and share my insights.  
+      
   socialIcons:
     - name: email
       url: 'mailto:rohanchadha07.com'

@@ -140,12 +140,5 @@ Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipka
 &lt;li&gt;It returns the result most relevant to the user&amp;rsquo;s query. The relevancy depends on hundred&amp;rsquo;s of factors - location, language, device etc.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/2025-11-12-searchvsexplorecategories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-11-12-searchvsexplorecategories/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
