@@ -2,7 +2,7 @@
 date: '2025-11-26'
 draft: false
 title: 'Gemini 3 is bonkers'
-tags: ["How I AI","Python]
+tags: ["How I AI","Python"]
 ---
 At work today, I was trying to come up with a **math function** to normalize some scores on a scale of 0-1.
 I had some idea of how I wanted the normalization to work (maybe a log or sigmoid function) but didn't quite had the function nailed down.
