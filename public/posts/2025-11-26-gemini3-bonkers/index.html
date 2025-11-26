@@ -5,17 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Frameworks &amp; Principles | Rohan Chadha</title>
-<meta name="keywords" content="Frameworks">
-<meta name="description" content="Some good reads on general frameworks and fundas on life, career, teams &amp; Product Management
-
-Optimism Shapes Reality by Scale AI CEO
-16 ways to measure Network Effects - a16z blog
-Eigen Questions by Shishir Mehrotra
-
-">
+<title>Gemini 3 is bonkers | Rohan Chadha</title>
+<meta name="keywords" content="How I AI">
+<meta name="description" content="At work today, I was trying to come up with a math function to normalize some scores on a scale of 0-1.
+I had some idea of how I wanted the normalization to work (maybe a log or sigmoid function) but didn&rsquo;t quite had the function nailed down.
+So, I gave Gemini 3 an idea of what I am trying to do and I gave it rough expectations from the normalization function i.e">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/2025-10-25-frameworks/">
+<link rel="canonical" href="http://localhost:1313/posts/2025-11-26-gemini3-bonkers/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/favicon-16x16.png">
@@ -24,7 +20,7 @@ Eigen Questions by Shishir Mehrotra
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2025-10-25-frameworks/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2025-11-26-gemini3-bonkers/">
 <noscript>
     <style>
         #theme-toggle,
@@ -133,26 +129,30 @@ Eigen Questions by Shishir Mehrotra
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Frameworks &amp; Principles
+      Gemini 3 is bonkers
     </h1>
-    <div class="post-meta"><span title='2025-10-25 00:00:00 +0000 UTC'>October 25, 2025</span>
+    <div class="post-meta"><span title='2025-11-26 00:00:00 +0000 UTC'>November 26, 2025</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>Some good reads on general frameworks and fundas on life, career, teams &amp; Product Management</p>
-<ol>
-<li><a href="https://alexw.substack.com/p/optimism-shapes-reality">Optimism Shapes Reality</a> by Scale AI CEO</li>
-<li><a href="https://a16z.com/16-ways-to-measure-network-effects/">16 ways to measure Network Effects</a> - a16z blog</li>
-<li><a href="https://coda.io/@shishir/eigenquestions-the-art-of-framing-problems">Eigen Questions</a> by Shishir Mehrotra</li>
-<li></li>
-</ol>
+  <div class="post-content"><p>At work today, I was trying to come up with a <strong>math function</strong> to normalize some scores on a scale of 0-1.
+I had some idea of how I wanted the normalization to work (maybe a log or sigmoid function) but didn&rsquo;t quite had the function nailed down.</p>
+<p>So, I gave Gemini 3 an idea of what I am trying to do and I gave it rough <strong>expectations from the normalization function</strong> i.e</p>
+<ul>
+<li>Low Score (20) should map to 0.25</li>
+<li>Medium Scores (50) maps to 0.5</li>
+<li>High Scores (~150) maps to 0.8</li>
+</ul>
+<p>And Gemini thinks for a while &amp; just <strong>one shots</strong> the function &amp; plots it :)
+And to flex, it gives an additional alternate function, also meeting the expectations.</p>
+<p><img alt="plot" loading="lazy" src="/posts/2025-11-26-gemini3-bonkers/functionPlot.png"></p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/frameworks/">Frameworks</a></li>
+      <li><a href="http://localhost:1313/tags/how-i-ai/">How I AI</a></li>
     </ul>
   </footer>
 </article>

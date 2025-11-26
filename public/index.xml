@@ -6,8 +6,17 @@
     <description>Recent content on Rohan Chadha</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemini 3 is bonkers</title>
+      <link>http://localhost:1313/posts/2025-11-26-gemini3-bonkers/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-26-gemini3-bonkers/</guid>
+      <description>&lt;p&gt;At work today, I was trying to come up with a &lt;strong&gt;math function&lt;/strong&gt; to normalize some scores on a scale of 0-1.
+I had some idea of how I wanted the normalization to work (maybe a log or sigmoid function) but didn&amp;rsquo;t quite had the function nailed down.&lt;/p&gt;
+&lt;p&gt;So, I gave Gemini 3 an idea of what I am trying to do and I gave it rough &lt;strong&gt;expectations from the normalization function&lt;/strong&gt; i.e&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Instamart shopping lists</title>
       <link>http://localhost:1313/posts/2025-11-12-swiggyshoppinglists/</link>
@@ -79,7 +88,7 @@ Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipka
 &lt;p&gt;In order to forecast how a business can evolve along it&amp;rsquo;s network effect, it&amp;rsquo;s important to understand:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Frameworks &amp; Principles #2</title>
+      <title>Frameworks &amp; Principles</title>
       <link>http://localhost:1313/posts/2025-10-25-frameworks/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-10-25-frameworks/</guid>
@@ -92,7 +101,7 @@ Examples of network effects appear in payments (UPI), e-commerce (Amazon, Flipka
 &lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Cleaning Messy Data with 5 minute Gemini Prompt #1</title>
+      <title>Cleaning Messy Data with 5 minute Gemini Prompt</title>
       <link>http://localhost:1313/posts/2025-10-14-beautifulsoup/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-10-14-beautifulsoup/</guid>
