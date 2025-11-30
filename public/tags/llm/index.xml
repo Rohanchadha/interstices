@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLM on Rohan Chadha</title>
+    <link>http://localhost:1313/tags/llm/</link>
+    <description>Recent content in LLM on Rohan Chadha</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes on Agents</title>
+      <link>http://localhost:1313/posts/2025-11-30-hfagentscourse/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-30-hfagentscourse/</guid>
+      <description>&lt;p&gt;Some notes I took while completing &lt;a href=&#34;https://huggingface.co/learn/agents-course/unit0/introduction&#34;&gt;Huggingface Agents Course&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Agent Definition: An Agent is a system that leverages an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions, often using external tools, to fulfill tasks
+Agent Components (Brain and Body):
+The Brain (AI Model): This is where reasoning and planning occur, and it decides which Actions to take based on the situation.
+The Body (Capabilities and Tools): This represents everything the Agent is equipped to do, determining the scope of possible actions&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

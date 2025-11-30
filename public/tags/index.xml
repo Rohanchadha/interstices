@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Rohan Chadha</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:1313/tags/agents/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How I AI</title>
+      <link>http://localhost:1313/tags/how-i-ai/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/how-i-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Product Improvement</title>
       <link>http://localhost:1313/tags/product-improvement/</link>
@@ -34,20 +55,6 @@
       <link>http://localhost:1313/tags/frameworks/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/frameworks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>How I AI</title>
-      <link>http://localhost:1313/tags/how-i-ai/</link>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/how-i-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>

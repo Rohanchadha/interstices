@@ -6,10 +6,30 @@
     <description>Recent content in How I AI on Rohan Chadha</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/how-i-ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cleaning Messy Data with 5 minute Gemini Prompt #1</title>
+      <title>Notes on Agents</title>
+      <link>http://localhost:1313/posts/2025-11-30-hfagentscourse/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-30-hfagentscourse/</guid>
+      <description>&lt;p&gt;Some of the notes I took from &lt;a href=&#34;https://huggingface.co/learn/agents-course/unit0/introduction&#34;&gt;Huggingface Agents Course&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Agent Definition: An Agent is a system that leverages an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and the execution of actions, often using external tools, to fulfill tasks
+Agent Components (Brain and Body):
+The Brain (AI Model): This is where reasoning and planning occur, and it decides which Actions to take based on the situation.
+The Body (Capabilities and Tools): This represents everything the Agent is equipped to do, determining the scope of possible actions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gemini 3 is bonkers</title>
+      <link>http://localhost:1313/posts/2025-11-26-gemini3-bonkers/</link>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2025-11-26-gemini3-bonkers/</guid>
+      <description>&lt;p&gt;At work today, I was trying to come up with a &lt;strong&gt;math function&lt;/strong&gt; to normalize some scores on a scale of 0-1.
+I had some idea of how I wanted the normalization to work (maybe a log or sigmoid function) but didn&amp;rsquo;t quite had the function nailed down.&lt;/p&gt;
+&lt;p&gt;So, I gave Gemini 3 an idea of what I am trying to do and I gave it rough &lt;strong&gt;expectations from the normalization function&lt;/strong&gt; i.e&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cleaning Messy Data with 5 minute Gemini Prompt</title>
       <link>http://localhost:1313/posts/2025-10-14-beautifulsoup/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2025-10-14-beautifulsoup/</guid>

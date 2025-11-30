@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Notes on Agents | Rohan Chadha</title>
+<meta name="keywords" content="How I AI, Agents, LLM">
+<meta name="description" content="Some notes I took while completing HuggingFace Agents Course
+
+An Agent is a system that uses an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and execution of actions (using external tools) to fulfill tasks
+Agent have 2 main Components:
+
+
+The Brain (AI Model): This is where reasoning and planning happens, and it decides which Actions to take based on the situation
+The Body (Capabilities and Tools): This represents everything the Agent is equipped to do, determining the scope of possible actions
+
+
+
+LLMs - An AI model that excels at understanding and generating human langugage
+Trained on vast amount of data that allows it learn patterns, structure and nuances of the language">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/2025-11-30-hfagentscourse/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/assets/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/assets/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/assets/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2025-11-30-hfagentscourse/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Rohan Chadha (Alt + H)">Rohan Chadha</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Notes on Agents
+    </h1>
+    <div class="post-meta"><span title='2025-11-30 00:00:00 +0000 UTC'>November 30, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Some notes I took while completing <a href="https://huggingface.co/learn/agents-course/unit0/introduction">HuggingFace Agents Course</a></p>
+<ol>
+<li>An Agent is a system that uses an AI model to interact with its environment in order to achieve a user-defined objective. It combines reasoning, planning, and execution of actions (using external tools) to fulfill tasks</li>
+<li>Agent have 2 main Components:</li>
+</ol>
+<ul>
+<li><strong>The Brain</strong> (AI Model): This is where reasoning and planning happens, and it decides which Actions to take based on the situation</li>
+<li><strong>The Body</strong> (Capabilities and Tools): This represents everything the Agent is equipped to do, determining the scope of possible actions</li>
+</ul>
+<ol start="3">
+<li>
+<p>LLMs - An AI model that excels at understanding and generating human langugage
+Trained on vast amount of data that allows it learn patterns, structure and nuances of the language</p>
+</li>
+<li>
+<p>Most LLMs are built on transformer architecture. There&rsquo;s 3 types of transformers</p>
+</li>
+</ol>
+<ul>
+<li>Encoders</li>
+<li>Decoders</li>
+<li>Seq2Seq</li>
+</ul>
+<ol start="5">
+<li>
+<p><strong>Encoder</strong> takes texts as input &amp; outputs an embedding</p>
+</li>
+<li>
+<p><strong>Decoder</strong> focuses on generating new tokens to complete a sequence, one token at a time</p>
+</li>
+<li>
+<p><strong>Seq2Seq</strong> combines encoder and decoder. Encoder first processes the input sequence into contextual representation, decoder then generates an output sequence</p>
+</li>
+<li>
+<p>Most LLMs are decoder based models. Most LLMs objective is to predict the next token, given a sequence of previous tokens</p>
+</li>
+<li>
+<p><strong>Chat Templates &amp; Special Tokens</strong></p>
+</li>
+</ol>
+<ul>
+<li>Chat Templates structures communication between user and agent</li>
+<li>Ensuring that every model (despite it&rsquo;s unique tokens) - receives correctly formatted prompts</li>
+</ul>
+<ol start="10">
+<li>
+<p><strong>Special Tokens</strong> - models use to delimit where user&rsquo;s turn and model&rsquo;s turn start and end</p>
+</li>
+<li>
+<p>Base Model - Trained on raw text to predict next token</p>
+</li>
+<li>
+<p>Instruct Model - fine tuned specifically to follow instructions and engage in converstations</p>
+</li>
+<li>
+<p>To make base models behave like Instruct models - we need to format our prompts in a way that models can understand
+We use chat templates for that</p>
+</li>
+<li>
+<p><strong>Tools</strong> give LLM the ability to take actions. E.g.</p>
+</li>
+</ol>
+<ul>
+<li>Web Search - Allows agent to fetch up-to-date information from internet</li>
+<li>Image Generation - Creates image based on text</li>
+<li>Retrieval - Retrieves information from external sources</li>
+<li>API Interface - Interacts with an external API - YT, Spotify, Github</li>
+</ul>
+<ol start="15">
+<li>A tool Should contain</li>
+</ol>
+<ul>
+<li>Textual description of what the tool does</li>
+<li>A callabale (to perform an action)</li>
+<li>Arguements (with typings)</li>
+<li>[optional] Outputs with typings</li>
+</ul>
+<ol start="16">
+<li>How Tools work?</li>
+</ol>
+<ul>
+<li>LLMs can only receive text inputs and generate Text outputs</li>
+<li>LLMs cannot call tools on their own</li>
+<li><strong>Providing Tools to an Agent</strong> - teaching LLM about existence of these tools &amp; instructing them to generate text based invocations</li>
+</ul>
+<ol start="17">
+<li>E.g. Provide a tool to LLM to check weather for a location</li>
+</ol>
+<ul>
+<li>Ask LLM about weather in Paris. It recognizes the opportunity to use the tool.</li>
+<li>It will generate text that represents a tool call. E.g. getWeather(&ldquo;Paris&rdquo;)</li>
+<li>Agent then reads this response &amp; recognizes that a tool call is required &amp; executes it on LLM&rsquo;s behalf</li>
+<li>LLM generates a natural sounding response based on retrieved data from the tool call</li>
+</ul>
+<ol start="18">
+<li>How do you give tools access to LLMs?</li>
+</ol>
+<ul>
+<li>by using a <strong>System Prompt</strong></li>
+<li>by giving textual descriptions of available tools
+<img alt="Sample System Prompt" loading="lazy" src="/posts/2025-11-30-hfagentscourse/systemPrompt.png"></li>
+<li>Need to be super precise about what the tool does &amp; what exact inputs it expects</li>
+</ul>
+<ol start="19">
+<li><strong>MCP - Model Context Protocol</strong></li>
+</ol>
+<ul>
+<li>A unified Tools interface</li>
+<li>MCP is an open protocol that standardizes how applications provides tools to LLMs</li>
+<li>MCPs provides
+<ul>
+<li>A growing list of pre-built integrations that LLM can directly plug into</li>
+<li>Flexibility to switch between LLM providers and vendors</li>
+</ul>
+</li>
+</ul>
+<ol start="20">
+<li><strong>Thought Action Observation</strong> model</li>
+</ol>
+<ul>
+<li>Thought - LLM part of the agent that decides what next step should be taken</li>
+<li>Action - The action is taken by  agent using Tools &amp; associated arguements</li>
+<li>Observation - The model reflects on the response from the tools</li>
+</ul>
+<p>These 3 components work together in a continuous loop
+<img alt="Thought Action Observation Cycle" loading="lazy" src="/posts/2025-11-30-hfagentscourse/ThoughtActionObservation.png"></p>
+<p><img alt="Thought Action Observation System Prompt" loading="lazy" src="/posts/2025-11-30-hfagentscourse/ThoughtActionObservationSystemPrompt.png"></p>
+<ol start="21">
+<li>Guidelines to be directly embedded into model&rsquo;s system prompt</li>
+</ol>
+<ul>
+<li>Defined Agent&rsquo;s behavior</li>
+<li>Define tools our agent has access to</li>
+<li>Baked in Thought Action Observation cycle</li>
+</ul>
+<ol start="22">
+<li>Broad <strong>Types of Agents</strong>:</li>
+</ol>
+<ul>
+<li>JSON Agent - Action to take is specified into JSON</li>
+<li>Code Agent - Agent writes a code block that&rsquo;s interpreted externally</li>
+<li>Function Calling Agent - a sub-category of JSON Agent fine tuned to generate new messages for each action</li>
+</ul>
+<ol start="23">
+<li>Actions can serve several purposes:</li>
+</ol>
+<ul>
+<li>Information gathering</li>
+<li>Tool Usage</li>
+<li>Environmental Interaction</li>
+<li>Communication</li>
+</ul>
+<ol start="24">
+<li><strong>Stop &amp; Parse</strong> approach - Primary goal is to facilitate seamless transfer of control from LLM back to Agent system, allowing external tools to be called</li>
+</ol>
+<ul>
+<li>LLM uses text to describe the Action it wants to take and the arguements for the Tool.</li>
+<li>The Stop and Parse approach is necessary because the LLM must STOP generating new tokens immediately after defining a complete Action to ensure the result is parseable</li>
+</ul>
+<ol start="25">
+<li>The Stop and Parse approach involves a specific sequence of steps:</li>
+</ol>
+<ul>
+<li>Generation in a Structured Format: The Agent must first output its intended Action in a clear, predetermined format, which is typically JSON or executable code.</li>
+<li>Halting Further Generation: Once the text defining the action has been emitted (e.g., the closing bracket of a JSON object or the end of a code block), the LLM must stop generating additional tokens. This halting prevents the LLM from producing extra or erroneous output that could confuse the parser.</li>
+<li>Parsing the Output: An external parser reads the formatted Action text. This parser is responsible for determining which Tool to call and extracting the required parameters or arguments.</li>
+</ul>
+<ol start="26">
+<li><strong>Code Agents</strong> generate an executable code block.
+This approach has some advanatages - modularity, reusability of existing libraries, enhanced debuggability, Direct Intergations, Expressability (complex logics, loops, nested functions etc.)</li>
+</ol>
+<p><img alt="Code Agent vs JSON agent" loading="lazy" src="/posts/2025-11-30-hfagentscourse/codeAgentsample.png"></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/how-i-ai/">How I AI</a></li>
+      <li><a href="http://localhost:1313/tags/agents/">Agents</a></li>
+      <li><a href="http://localhost:1313/tags/llm/">LLM</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Rohan Chadha</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
